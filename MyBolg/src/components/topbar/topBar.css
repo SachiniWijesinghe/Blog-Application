@@ -1,0 +1,66 @@
+.top{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: sticky;
+    top:0;
+
+    /* display flex */
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+    z-index: 999; /*meken topbar eka hma ektma udin pennanwa.e nisa blog eka udin ynwa pennanne na*/
+}
+
+
+.topLeft,.topRight {
+    margin-left: 50px;
+    display: flex; 
+    flex :3;
+  
+
+}
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+    
+  
+}
+.topImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 200px;
+
+}
+.topSearchIcon{
+    font-size: 30px;
+    color:#747171;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.topCenter{
+    flex:6;
+}
+.topList{
+    display: flex;        /*display elements in horizontal way as inline */
+    justify-content: center;  /*content eka maddt gnnwa*/
+    margin: 0;            /*default margins paddings ayn krnnai meka dunne*/
+    padding:0 ;
+    list-style: none;   /* list ekak nisa mulin dot ekk enw,ekaayn krnna me hdnne*/
+
+}
+
+.topListItem{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 300; /*meken akure ganakama adu krnwa*/
+    cursor: pointer;  /* cursor eka pointer ekk wenwa ethnt yddi */
+}
+
